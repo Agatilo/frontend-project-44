@@ -3,22 +3,23 @@
   "version": "1.0.0",
   "type": "module",
   "description": "[![Actions Status](https://github.com/Agatilo/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Agatilo/frontend-project-44/actions)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/Agatilo/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/Agatilo/frontend-project-44/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Agatilo/frontend-project-44.git"
   },
-  "author": "Agat",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Agatilo/frontend-project-44/issues"
-  },
-  "homepage": "https://github.com/Agatilo/frontend-project-44#readme",
+  "author": "Agat",
+  "type": "module",
+  "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "make": "^0.8.1"
