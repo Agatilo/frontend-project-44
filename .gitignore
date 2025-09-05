@@ -1,0 +1,24 @@
+# Зависимости Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Локальные файлы окружения
+.env
+.env.local
+
+# Директории сборки
+dist/
+build/
+
+# Логи
+logs/
+*.log
+
+# IDE файлы
+.vscode/
+.idea/
+
+# OS файлы
+.DS_Store
