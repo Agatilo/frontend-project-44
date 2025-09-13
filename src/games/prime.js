@@ -1,9 +1,10 @@
 import playGame from '../index.js'
+import crypto from 'crypto'
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min
+  return crypto.randomInt(min, max + 1)
 }
 
 function isPrime(num) {
