@@ -8,27 +8,27 @@ function getRandomNumber(min, max) {
 
 function isPrime(num) {
   if (num < 2) {
-    return false;
+    return false
   }
 
   for (let i = 2; i <= Math.sqrt(num); i += 1) {
     if (num % i === 0) {
-      return false;
+      return false
     }
   }
 
-  return true;
+  return true
 }
 
 function getRoundData() {
-    const randomNum = getRandomNumber(1, 99)
-    const answer = isPrime(randomNum) ? 'yes' : 'no'
-    const question = `${randomNum}`
-    const currentAnswer = String(answer)
+  const randomNum = getRandomNumber(1, 99)
+  const answer = isPrime(randomNum) ? 'yes' : 'no'
+  const question = `${randomNum}`
+  const currentAnswer = String(answer)
 
-    return [question, currentAnswer]
+  return [question, currentAnswer]
 }
 
 export function playPrimeGame() {
-    playGame(gameDescription, getRoundData)
+  playGame(gameDescription, getRoundData)
 }
