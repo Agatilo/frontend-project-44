@@ -7,6 +7,7 @@ function getRandomNumber(min, max) {
   return crypto.randomInt(min, max + 1)
 }
 
+
 function isPrime(num) {
   if (num < 2) {
     return false
